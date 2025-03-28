@@ -1,0 +1,15 @@
+title: Suspicious Phishing Email Received
+description: >
+  A user reports receiving an email from "admin@security.com" asking to update their password via a link.
+
+options:
+  - Tell the user to ignore and delete it.
+  - Click the link to verify.
+  - Report the email to security team.
+  - Reply asking for clarification.
+
+correct_option: 3
+
+feedback:
+  correct: Well done! Reporting allows further investigation and threat intel gathering.
+  incorrect: That might lead to risk exposure or missed incident tracking.

@@ -1,0 +1,15 @@
+title: Brute-Force Login Attack Detected
+description: >
+  Multiple failed login attempts detected from a suspicious IP address targeting admin credentials.
+
+options:
+  - Ignore the alert for now.
+  - Block the IP address immediately.
+  - Reset all user passwords.
+  - Email the attacker for clarification.
+
+correct_option: 2
+
+feedback:
+  correct: Good job! Blocking the IP quickly mitigates the risk.
+  incorrect: That response may delay mitigation and expose systems to continued risk.
